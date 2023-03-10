@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Cantique-Normal";
+  src: url("Cantique-Normal.woff2")
+    format("woff2");
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: none;
+  background-color: #efefef;
+}
+
+.card {
+  margin: auto; /* centrer la carte au milieu de la page, nécessaire d'avoir mis body avant */
+  margin-top: 100px;
+  width: 300px;
+  height: 450px;
+  border-radius: 20px; /* bord arrondi */
+  background-color: black;
+  display: flex;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+}
+
+.card-title {
+  font-family: "Cantique-Normal";
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 20px;
+  font-size: 32px;
+  color: white;
+}
+
+.cercle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* permet de faire un cercle en css */
+  background-color: white;
+  margin: auto;
+  transform: translateZ(70px);
+}
+
+#extension {
+  font-family: "Cantique-Normal";
+  font-size: 20px;
+  position: absolute;
+  display: flex;
+  bottom: 1px;
+  color: white;
+  left: 20px;
+}
+
+#numero {
+  font-family: "Cantique-Normal";
+  font-size: 20px;
+  position: absolute;
+  bottom: 1px;
+  color: white;
+  right: 20px;
+}
