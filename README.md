@@ -6,3 +6,6 @@ Re-creation and iteration from the [@nicolastilly](https://github.com/nicolastil
 - Parallax and glare effect with vanilla-tilt lib
 - Various CSS creative effects
 - Interactivity and handle
+
+# 🛠️
+HTML, CSS, Vanilla-tilt.js
